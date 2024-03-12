@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="JS.js"> </script>
+        <link rel="stylesheet" href="styles.css">
+  <title>Pablo Santos - Portfolio</title>
+  
+</head>
+<body>
+    <header>
+        <h1>Pablo Santos</h1>
+        <h2>JR Developer</h2>
+        <!-- Icono de menú para pantallas pequeñas -->
+        <a href="javascript:void(0);" class="menu-icon" onclick="toggleMenu()">
+          &#9776;
+        </a>
+        <!-- Fin Icono de menú -->
+        <nav id="main-nav">
+          <a href="index.html">Proyectos</a>
+          <a href="acerca.html">Acerca de Mi</a>
+        </nav>
+      </header>
+  <main>
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <!-- Agrega más indicadores según la cantidad de imágenes -->
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/frontendstore.png" class="d-block w-100" alt="Frontend Store">
+            </div>
+            <div class="carousel-item">
+              <img src="img/Proyecto2.png" class="d-block w-100" alt="Proyecto 2">
+            </div>
+            <div class="carousel-item">
+              <img src="img/chamber-site.png" class="d-block w-100" alt="Proyecto 3">
+            </div>
+            <!-- Agrega más elementos de carrusel según la cantidad de imágenes -->
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+          </a>
+        </div>
+      </section>
+    <!-- Puedes añadir más secciones según sea necesario -->
+  </main>
+  <footer>
+    <p>Información de contacto: pablonsantos1107@gmail.com | Teléfono: +598 95 232 277</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans+Narrow:wght@400;700&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eceaea;
+    color: #000000;
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  }
+  header {
+    background-color: #007bff;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+  }
+  #main-nav{
+    text-align: center;
+  }
+
+  main {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+
+  }
+  main #carouselExampleIndicators{
+    max-width: 600px;
+    text-align: center;
+  }
+  #carouselExampleIndicators > div{
+    max-height: 400px;
+  }
+  footer {
+    background-color: #007bff;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .column img{
+justify-content: center;
+  }
+footer{
+    
+        font-family: "PT Sans Narrow", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+}
+
+ /* Estilos para pantallas pequeñas */
+ @media only screen and (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: left;
+      display: none; /* Oculta el menú de navegación por defecto */
+    }
+    nav.active {
+      display: flex; /* Muestra el menú de navegación cuando está activo */
+    }
+    nav a {
+      margin: 10px 0;
+    }
+    main {
+      padding: 20px;
+      max-height: 300px;
+    }
+    #carouselExampleIndicators > div{
+        height: 200px;
+    }
+    footer {
+      padding: 20px;
+    }
+    .menu-icon {
+      display: block; /* Muestra el icono de menú */
+    }
+    div.container{
+        display: grid;
+    }
+    footer{
+        margin-top: 10px;
+    }
+    section#proyectos{
+        margin: 20px;
+    }
+  }
+  /* Estilos para pantallas más grandes */
+  @media only screen and (min-width: 769px) {
+    .menu-icon {
+      display: none; /* Oculta el icono de menú en pantallas más grandes */
+    }
+    nav {
+      display: flex; /* Muestra el menú de navegación en pantallas más grandes */
+    }
+    
+  }
+
+
+  a.menu-icon {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+  }
+
+  nav a:hover{
+    text-decoration: none;
+    color: yellow;
+  }
+
+  /* Acerca */
+
+  .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    .column {
+      flex: 1;
+      padding: 20px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
